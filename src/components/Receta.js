@@ -68,7 +68,7 @@ const Receta = ({receta}) => {
                  <div className="card-body">
                      <button
                         type="button"
-                        className="btn btn-block btn-primary"
+                        className="btn btn-block btn-dark"
                         onClick={() => {
                             guardarIdReceta(receta.idDrink);
                             handleOpen();
